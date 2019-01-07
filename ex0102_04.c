@@ -18,7 +18,7 @@ int main() {
 			int j = a[i];
 			p[j]++;
 		}
-		int d = 1, c = p[0];
+		int d = 0, c = p[0]; //d=1 -> d=0
 		for (int i = 0; i < 10; i++) {
 			if (c < p[i]) {
 				c = p[i];
