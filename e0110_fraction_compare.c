@@ -13,7 +13,7 @@ int main() {
 	fraction f1, f2;
 	scanf("%d/%d", &f1.n, &f1.d);
 	scanf("%d/%d", &f2.n, &f2.d);
-	printf("\n[output]\n%d\n",compare(&f1,&f2));
+	printf("\n[output]\n%d\n",compare(f1,f2));
 
 }
 
